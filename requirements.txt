@@ -7,4 +7,6 @@ pandas
 sentence-transformers
 tqdm
 pydantic
+SQLAlchemy
+psycopg2
 

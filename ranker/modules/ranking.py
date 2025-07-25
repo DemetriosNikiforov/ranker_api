@@ -37,8 +37,8 @@ from ranker.utils.load_models import ModelDownloader
 
 MODEL_RANKER = os.path.join(ROOT_PATH_MODEL, MODELS_FOLDER, "ranker")
 MODEL_SENTENCE = os.path.join(ROOT_PATH_MODEL, MODELS_FOLDER, "bi_encoder_ranker")
-REFERENCE_DATA = os.path.join(ROOT_PATH_MODEL, "reference.csv")
-SYNONYMS = os.path.join(ROOT_PATH_MODEL, "search.json")
+REFERENCE_DATA = os.path.join(ROOT_PATH_MODEL, "data_search", "reference.csv")
+SYNONYMS = os.path.join(ROOT_PATH_MODEL, "data_search", "search.json")
 
 
 class MatchingClassifier:
